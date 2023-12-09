@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "934cc787-48b1-4eb6-89ac-ff60f9ebd885",
+		"name": "Cpf",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8241213"
+	},
+	"item": [
+		{
+			"name": "cpf",
+			"item": [
+				{
+					"name": "{cpf}",
+					"item": [
+						{
+							"name": "/cpf/:cpf",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/cpf/:cpf",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"cpf",
+										":cpf"
+									],
+									"variable": [
+										{
+											"key": "cpf",
+											"value": "<string>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/cpf/:cpf",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"cpf",
+												":cpf"
+											],
+											"variable": [
+												{
+													"key": "cpf"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/cpf/:cpf",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/cpf/:cpf",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"cpf",
+										":cpf"
+									],
+									"variable": [
+										{
+											"key": "cpf",
+											"value": "<string>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/cpf/:cpf",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"cpf",
+												":cpf"
+											],
+											"variable": [
+												{
+													"key": "cpf"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "/cpf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"cpfNumero\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/cpf",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"cpf"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"cpfNumero\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/cpf",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"cpf"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "/cpf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/cpf",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"cpf"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/cpf",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"cpf"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

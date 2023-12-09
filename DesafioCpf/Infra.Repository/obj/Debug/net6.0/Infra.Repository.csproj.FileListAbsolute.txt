@@ -1,0 +1,15 @@
+C:\DesafioCpf\DesafioCpf\Infra.Repository\bin\Debug\net6.0\Infra.Repository.deps.json
+C:\DesafioCpf\DesafioCpf\Infra.Repository\bin\Debug\net6.0\Infra.Repository.dll
+C:\DesafioCpf\DesafioCpf\Infra.Repository\bin\Debug\net6.0\Infra.Repository.pdb
+C:\DesafioCpf\DesafioCpf\Infra.Repository\bin\Debug\net6.0\Domain.dll
+C:\DesafioCpf\DesafioCpf\Infra.Repository\bin\Debug\net6.0\Domain.pdb
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.csproj.AssemblyReference.cache
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.AssemblyInfoInputs.cache
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.AssemblyInfo.cs
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.csproj.CoreCompileInputs.cache
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.csproj.CopyComplete
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.dll
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\refint\Infra.Repository.dll
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\Infra.Repository.pdb
+C:\DesafioCpf\DesafioCpf\Infra.Repository\obj\Debug\net6.0\ref\Infra.Repository.dll
